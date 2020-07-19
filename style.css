@@ -1,0 +1,216 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    color: darkslategray;
+    height: 100vh;
+    padding: 0px 20px 0px 20px;
+    min-width: 1020px;
+    
+
+}
+
+
+header {
+    margin: 16px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: auto;
+    vertical-align: middle; 
+    display: inline-block;
+    
+}
+
+.list{
+    /* line-height: 60px; */
+    margin-left: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: darkslategray;
+    display: inline-block;
+    vertical-align: middle;
+   
+    
+}
+
+.list:hover{
+    
+    color: lightslategrey;
+}
+
+.logo{
+    font-size: 40px;
+    list-style: none;
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: 800;
+}
+.logo:hover{
+    margin-left: 0;
+    color: lightslategrey;
+}
+
+
+.contacts{
+    padding: 12px 28px 12px 28px;
+    background-color: whitesmoke;
+    border: 2px solid lightslategrey;
+    border-radius: 30px;
+    transition: 0s;
+    font-size: 18px;
+    color: darkslategray;
+}
+
+
+
+.contacts:focus{
+  outline: none;
+}
+
+.main-window{
+    
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-window__content{
+    
+  text-align: left;
+   
+  
+}
+
+h2{
+    font-weight: 300;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 90px;
+    margin: 0 auto;
+}
+
+h3{
+    margin-top: 40px;
+    font-weight: 300;;
+}
+
+
+
+.icons{
+    
+    width: 60px;
+    height: 60px;
+    margin-right: 8px;
+}
+
+.icons:hover{
+    position: static;
+    transition: 0.5s;
+    width: 70px;
+    height: 70px;
+}
+
+.likes{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: bottom;
+}
+
+.music{
+    display: block;
+    padding-left: 100px;
+}
+
+p{
+    margin: 0 auto;
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+
+iframe{
+    border-radius: 8px;
+}
+
+.about{
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.photo_me{
+    border-radius: 16px;
+    width: 500px;
+    height: 500px;
+}
+.menu_icons{
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle; 
+  
+}
+.menu_icons:hover{
+    color: lightslategrey;
+    width: 30px;
+    height: 30px;
+}
+.introduction{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 60px;
+    line-height: 34px;
+    text-align: left;
+    
+}
+
+.images p,
+.technologies p{
+    padding-top: 50px;
+}
+
+.list__favs{
+    list-style: none;
+}
+
+.list__favs li{
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+.favs{
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.list__favs p{
+    font-weight: 500;
+    
+}
+
+button a{
+    text-decoration: none;
+    color: darkslategray;
+}
+button:hover
+{
+
+        background-color: lightblue;
+        color: whitesmoke;
+        transition: 0.15s;
+}
